@@ -1,0 +1,107 @@
+{
+  "reportMonth": "May 2026",
+  "reportPeriod": "1 — 31 May 2026",
+  "isBaseline": false,
+  "prevMonthLabel": "vs April",
+  "withinMonthLabel": "since 1 May",
+  "strapline": "May built on the April foundation — engagement nearly tripled, the Darin Bodilly 20-year LinkedIn post became our highest-engagement moment yet, and Instagram stories effort climbed 3.6×.",
+  "hero": [
+    { "value": 534275, "prev": 848220, "label": "Total impressions",  "accent": "var(--vocus-teal)"    },
+    { "value":   8864, "prev":   2990, "label": "Total engagements",  "accent": "var(--vocus-magenta)" },
+    { "value":    427, "prev":    472, "label": "New followers",      "accent": "var(--vocus-yellow)"  },
+    { "value":  50524, "prev":  50069, "label": "Total followers",    "accent": "var(--vocus-green)"   }
+  ],
+  "channels": [
+    {
+      "key": "li", "name": "LinkedIn", "handle": "@Vocus", "icon": "linkedin",
+      "followers": 49941, "startFollowers": 49578, "prevFollowers": 49512,
+      "posts": 21, "prevPosts": 8,
+      "engagementRate": 15.26, "prevEngagementRate": 12.27,
+      "impressions": 57517, "prevImpressions": 31025,
+      "engagements": 8777, "prevEngagements": 2933,
+      "sparkline": [49578, 49590, 49598, 49615, 49631, 49658, 49697, 49749, 49787, 49850, 49941],
+      "colour": "#020E92"
+    },
+    {
+      "key": "ig", "name": "Instagram", "handle": "@vocuscomms", "icon": "instagram",
+      "followers": 583, "startFollowers": 561, "prevFollowers": 557,
+      "posts": 7, "prevPosts": 3,
+      "stories": 11, "prevStories": 3,
+      "storyReach": 1003, "prevStoryReach": 371,
+      "engagementRate": 3.31, "prevEngagementRate": 3.2,
+      "impressions": 476758, "prevImpressions": 817195,
+      "engagements": 87, "prevEngagements": 57,
+      "sparkline": [561, 568, 564, 564, 562, 564, 564, 565, 574, 578, 583],
+      "colour": "#FF4DD7"
+    },
+    {
+      "key": "yt", "name": "YouTube", "handle": "@VocusComms · setup in progress", "icon": "youtube",
+      "followers": 0, "startFollowers": 0,
+      "posts": 0, "engagementRate": 0, "impressions": 0, "engagements": 0,
+      "sparkline": [0,0,0,0,0,0,0,0,0,0],
+      "colour": "#FF8B2F", "pending": true
+    }
+  ],
+  "channelMix": [
+    { "name": "LinkedIn",  "value":  57517, "colour": "#9A9FD3" },
+    { "name": "Instagram", "value": 476758, "colour": "#FF4DD7" },
+    { "name": "YouTube",   "value":      0, "colour": "#FF8B2F" }
+  ],
+  "channelMixNote": "Instagram still dominates total impressions (89%) via account-level reach. The bigger story: LinkedIn impressions grew 85% month-on-month (31K → 57K) with 2.5× more posts published — momentum building in our primary B2B channel.",
+  "dailyJourney": {
+    "labels": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31"],
+    "series": [
+      { "name": "LinkedIn",  "colour": "#4E56B3",
+        "values": [49578, 49578, 49590, 49598, 49615, 49631, 49644, 49658, 49680, 49659, 49681, 49697, 49713, 49730, 49749, 49759, 49757, 49769, 49787, 49783, 49813, 49844, 49845, 49850, 49874, 49872, 49882, 49921, 49935, 49941, 49941] },
+      { "name": "Instagram", "colour": "#FF4DD7",
+        "values": [561, 569, 568, 568, 564, 564, 564, 564, 564, 564, 566, 562, 564, 560, 564, 560, 564, 562, 562, 565, 565, 568, 570, 574, 570, 574, 578, 576, 578, 580, 583] }
+    ]
+  },
+  "topPosts": [
+    {
+      "channel": "LinkedIn",
+      "tag": "People & culture",
+      "headline": "Celebrating 20 years with Darin Bodilly at Vocus",
+      "date": "15 May 2026",
+      "stats": { "primary": "5.4K", "primaryLabel": "Impressions", "secondary": "2,587", "secondaryLabel": "Engagements", "tertiary": "48.1%", "tertiaryLabel": "Eng. rate" },
+      "visual": "magenta"
+    },
+    {
+      "channel": "LinkedIn",
+      "tag": "Infrastructure stories",
+      "headline": "Project Horizon takes the stage at Mid West Major Projects Conference",
+      "date": "1 May 2026",
+      "stats": { "primary": "8.4K", "primaryLabel": "Impressions", "secondary": "745", "secondaryLabel": "Engagements", "tertiary": "8.83%", "tertiaryLabel": "Eng. rate" },
+      "visual": "teal"
+    },
+    {
+      "channel": "LinkedIn",
+      "tag": "People & culture",
+      "headline": "World Day for Cultural Diversity — celebrated across Vocus",
+      "date": "26 May 2026",
+      "stats": { "primary": "3.1K", "primaryLabel": "Impressions", "secondary": "1,672", "secondaryLabel": "Engagements", "tertiary": "53.6%", "tertiaryLabel": "Eng. rate" },
+      "visual": "yellow"
+    }
+  ],
+  "formatMix": [
+    { "format": "Text post (LinkedIn)",  "posts": 4,  "engagements": 3541, "impressions": 22441, "takeaway": "Darin Bodilly's 20-year post drove a 48% engagement rate — biggest of the month", "colour": "#9A9FD3" },
+    { "format": "Image",                 "posts": 4,  "engagements":  790, "impressions":  9524, "takeaway": "Project Horizon LinkedIn image hit 8.4K — biggest single-post reach",          "colour": "#FFCC00" },
+    { "format": "Carousel",              "posts": 2,  "engagements":   38, "impressions":  1201, "takeaway": "Cultural Diversity & Darin Bodilly — carousels working hardest on Instagram",   "colour": "#FF8B2F" },
+    { "format": "Instagram story",       "posts": 11, "engagements":    1, "impressions":  1018, "takeaway": "11 stories — 3.6× April effort, channel investment is clearly paying off",      "colour": "#4DFF4D" },
+    { "format": "Video / Reel",          "posts": 0,  "engagements":    0, "impressions":     0, "takeaway": "No Reels this month — clear opportunity for June",                              "colour": "#FF4DD7" }
+  ],
+  "formatMixNote": "Text posts on LinkedIn dominated engagement — Darin Bodilly's 20-year tribute drove most of the lift via clicks. Stories effort tripled. We didn't run a Reel this month, but April showed how powerful that format can be — a Reel opportunity for June.",
+  "seriesMix": [
+    { "name": "#TakeFive",            "posts": 0, "engagements":    0, "colour": "#FF4DD7" },
+    { "name": "#DidYouKnow",          "posts": 0, "engagements":    0, "colour": "#00FFFF" },
+    { "name": "#ThroughTheVocusLens", "posts": 2, "engagements":   29, "colour": "#4DFF4D" },
+    { "name": "People Stories",       "posts": 6, "engagements": 4670, "colour": "#FFCC00" },
+    { "name": "Customer outcomes",    "posts": 2, "engagements":  381, "colour": "#FF8B2F" },
+    { "name": "Industry & events",    "posts": 5, "engagements": 2013, "colour": "#9A9FD3" }
+  ],
+  "wins": [
+    { "stat": "1+",   "title": "Bring back the Reel",        "body": "May had zero Reels — and Instagram impressions dropped 42%. Schedule at least one #TakeFive or #ThroughTheVocusLens Reel for June. April's Reel hit Explore and reached 817K.", "accent": "#FF4DD7" },
+    { "stat": "3+",   "title": "Pipeline milestone moments", "body": "Darin's 20-year tribute (48%) and World Day for Cultural Diversity (54%) were our two highest engagement-rate posts. Brief 2–3 more longevity, award or cultural-moment stories for LinkedIn in June.", "accent": "#00FFFF" },
+    { "stat": "100%", "title": "Give every story a CTA",     "body": "11 stories drove just 1 reply and 7 link clicks. Add a poll, question or swipe-up link to every Instagram story in June so the extra effort starts converting reach into action.", "accent": "#4DFF4D" }
+  ]
+}
